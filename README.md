@@ -31,7 +31,7 @@ This repository delivers a complete implementation of the **DSP48A1 slice** for 
 ---
 
 ## 📄 Documentation
-The full design documentation can be found in **[DSP48A1_Report.pdf](./DSP48A1_Report.pdf)** and includes:
+The full design documentation can be found in **[DSP48A1.pdf](./DOCS/DSP48A1.pdf)** and includes:
 
 - RTL design  
 - Testbench description  
