@@ -23,10 +23,20 @@ This repository delivers a complete implementation of the **DSP48A1 slice** for 
 
 ---
 
-## 📂 Repository Structure
-Spartan6---DSP48A1/
-├── RTL/ # Verilog/VHDL source files
-├── Testbench/ # Verification files and testbenches
-├── Do_Files/ # Scripts for QuestaSim automation
-├── constraints/ # XDC constraint files
-├── DOCS/ # Documentation such as design reports or PDFs
+## 🚀 Getting Started
+1. **Clone the repository**:
+  
+   git clone https://github.com/ShahdBassem35/Spartan6---DSP48A1.git
+   cd Spartan6---DSP48A1
+Simulate in QuestaSim:
+
+cd Do_Files
+vsim -do run.do
+
+Synthesize & implement using Vivado:
+
+Open the RTL files in Vivado
+Use constraints/*.xdc for pin/timing constraints
+Run through the full flow to generate implementation reports and timing closure
+
+
