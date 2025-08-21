@@ -48,6 +48,6 @@ The full design documentation can be found in **[DSP48A1_Report.pdf](./DSP48A1_R
 ---
 
 ## 📂 Design Files
-- **[Spartan6.v](./Spartan6.v)** — Top-level Verilog module for DSP48A1 slice implementation  
-- **[Spartan6_tb.v](./Spartan6_tb.v)** — Verilog testbench for simulation and verification  
-- **[run_Spartan6.do](./run_Spartan6.do)** — Script for automating the simulation process  
+- **[Spartan6.v](./RTL/Spartan6.v)** — Top-level Verilog module for DSP48A1 slice implementation  
+- **[Spartan6_tb.v](./Testbench/Spartan6_tb.v)** — Verilog testbench for simulation and verification  
+- **[run_Spartan6.do](./Do_Files/run_Spartan6.do)** — Script for automating the simulation process  
