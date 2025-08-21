@@ -23,20 +23,31 @@ This repository delivers a complete implementation of the **DSP48A1 slice** for 
 
 ---
 
-## 🚀 Getting Started
-1. **Clone the repository**:
-  
-   git clone https://github.com/ShahdBassem35/Spartan6---DSP48A1.git
-   cd Spartan6---DSP48A1
-Simulate in QuestaSim:
+## 🛠 Tools
+- **QuestaSim** — Simulation  
+- **QuestaLint** — Linting  
+- **Xilinx Vivado** — Synthesis & Implementation  
 
-cd Do_Files
-vsim -do run.do
+---
 
-Synthesize & implement using Vivado:
+## 📄 Documentation
+The full design documentation can be found in **[DSP48A1_Report.pdf](./DSP48A1_Report.pdf)** and includes:
 
-Open the RTL files in Vivado
-Use constraints/*.xdc for pin/timing constraints
-Run through the full flow to generate implementation reports and timing closure
+- RTL design  
+- Testbench description  
+- Simulation results  
+- DO file  
+- Constraint file  
+- RTL schematic  
+- Synthesis report  
+- Implementation report  
+- Timing analysis  
+- Device utilization  
+- Linting with **0 errors and warnings**  
 
+---
 
+## 📂 Design Files
+- **[Spartan6.v](./Spartan6.v)** — Top-level Verilog module for DSP48A1 slice implementation  
+- **[Spartan6_tb.v](./Spartan6_tb.v)** — Verilog testbench for simulation and verification  
+- **[run_Spartan6.do](./run_Spartan6.do)** — Script for automating the simulation process  
